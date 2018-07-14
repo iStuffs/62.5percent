@@ -7,5 +7,20 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "iStuffs - Samuel DIDIER-LAURENT",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iStuffs/62.5percent.git"
+  },
+  "keywords": [
+    "rem",
+    "front-end",
+    "dev",
+    "boilerplate",
+    "typography"
+  ],
+  "bugs": {
+    "url": "https://github.com/iStuffs/62.5percent/issues"
+  },
+  "homepage": "https://github.com/iStuffs/62.5percent#readme"
 }
