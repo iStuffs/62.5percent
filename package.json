@@ -15,10 +15,16 @@
   "keywords": [
     "rem",
     "front-end",
-    "dev",
     "boilerplate",
-    "typography"
+    "typography",
+    "eyeglass-module",
+    "sass"
   ],
+    "eyeglass": {
+        "name": "normalize",
+        "exports": "eyeglass-exports.js",
+        "needs": "^2.0.0"
+    },
   "bugs": {
     "url": "https://github.com/iStuffs/62.5percent/issues"
   },

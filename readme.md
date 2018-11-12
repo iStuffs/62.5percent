@@ -7,7 +7,9 @@
 The browser set the default font size to 16px, but it's not convenient for rem unit use.
 So we take 62.5% of 16px to have a font size base at 10px.
 Now you can set size in rem with a 10 base maths.
-2.4rem is 24px.
+_Example: 2.4rem is 24px._
+
+**It only adds the following code to your css**
 
 ```css
 html {
@@ -16,22 +18,31 @@ html {
 }
 ```
 
-You only have yo use rem easily with low maths.
+Now you can use rem easily with low maths.
 
-```css
-body {
-    font-size: 1.4rem;
-    @media screen and (min-width: 76.8rem) {
-        font-size: 1.5rem;
-    }
-    @media screen and (min-width: 99.2rem) {
-        font-size: 1.6rem;
-    }
-}
+## Import with eyeglass or NPM
+
+**With eyeglass**
+
+```bash
+npm i -D eyeglass
+npm i -S 62.5percent
 ```
 
-## Import with npm
+```javascript
+/* gulpfile.js */
+const gulp     = require('gulp');
+const sass     = require('gulp-sass');
+const eyeglass = require("eyeglass");
 
+gulp.task('css', function () {
+    return gulp.src('sass/**/*.{sass,scss}')
+        .pipe(sass(eyeglass())
+        .pipe(gulp.dest('./dist/css/')
+    );
+});
+```
+**_or_ With NPM**
 ```bash
 npm i -S 62.5percent
 ```
@@ -50,16 +61,17 @@ gulp.task('cssTask', function () {
 });
 ```
 
-```css
+## easy use
+```scss
 @import '62.5percent';
 
 body {
-    font-size: 1.4rem;
-    @media screen and (min-width: 76.8rem) {
-        font-size: 1.5rem;
+    font-size: 1.4rem; // equivalent to 14px
+    @media screen and (min-width: 76.8rem) { // equivalent to 768px
+        font-size: 1.5rem; // equivalent to 15px
     }
-    @media screen and (min-width: 99.2rem) {
-        font-size: 1.6rem;
+    @media screen and (min-width: 99.2rem) { // equivalent to 992px
+        font-size: 1.6rem; // equivalent to 16px
     }
 }
 ```
