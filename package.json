@@ -1,6 +1,6 @@
 {
   "name": "62.5percent",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "rem unit unifier for scss web boilerplater",
   "main": "index.js",
   "scripts": {
@@ -20,11 +20,11 @@
     "eyeglass-module",
     "sass"
   ],
-    "eyeglass": {
-        "name": "normalize",
-        "exports": "eyeglass-exports.js",
-        "needs": "^2.0.0"
-    },
+  "eyeglass": {
+    "name": "normalize",
+    "exports": "eyeglass-exports.js",
+    "needs": "^2.0.0"
+  },
   "bugs": {
     "url": "https://github.com/iStuffs/62.5percent/issues"
   },
