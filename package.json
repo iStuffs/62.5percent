@@ -3,6 +3,7 @@
   "version": "0.0.2",
   "description": "rem unit unifier for scss web boilerplater",
   "main": "index.js",
+  "unpkg": "css/62.5percent.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,7 +22,7 @@
     "sass"
   ],
   "eyeglass": {
-    "name": "normalize",
+    "name": "625percent",
     "exports": "eyeglass-exports.js",
     "needs": "^2.0.0"
   },

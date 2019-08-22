@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Root font size trick</title>
+  <link rel="stylesheet" href="//unpkg.com/62.5percent">
+</head>
+<body>
+  <main>
+    <h1>The magic number is 62.5%</h1>
+    <p>The default browser user agent root `font-size` is 16px<br>
+    So to have a base 10 math we can do a little math: 100% * 10 / 16 = 62.5%.
+    </p>
+    <pre>
+      <code>
+  html {
+    font-size: .625em; /* fallback IE8+ */
+    font-size: calc(1em * .625); /* IE9-IE11 math fixing. See http://bit.ly/1g4X0bX */
+  }
+      </code>
+    </pre>
+  </main>
+</body>
+</html>

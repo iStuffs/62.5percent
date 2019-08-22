@@ -20,6 +20,14 @@ html {
 
 Now you can use rem easily with low maths.
 
+## Use with CDN
+
+You can simply add this before your own stylesheet.
+
+```html
+  <link rel="stylesheet" href="//unpkg.com/62.5percent">
+```
+
 ## Import with eyeglass or NPM
 
 **With eyeglass**
