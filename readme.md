@@ -25,7 +25,7 @@ Now you can use rem easily with low maths.
 You can simply add this before your own stylesheet.
 
 ```html
-  <link rel="stylesheet" href="//unpkg.com/62.5percent">
+  <link rel="stylesheet" href="//unpkg.com/62.5percent@latest">
 ```
 
 ## Import with eyeglass or NPM
