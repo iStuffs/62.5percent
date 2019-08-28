@@ -3,6 +3,7 @@
   "version": "0.0.3",
   "description": "rem unit unifier for scss web boilerplater",
   "main": "index.js",
+  "style": "sass/62.5percent.scss",
   "unpkg": "css/62.5percent.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
