@@ -1,6 +1,6 @@
 {
   "name": "62.5percent",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "rem unit unifier for scss web boilerplater",
   "main": "index.js",
   "style": "sass/62.5percent.scss",
