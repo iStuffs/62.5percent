@@ -25,7 +25,7 @@
   "eyeglass": {
     "name": "625percent",
     "exports": "eyeglass-exports.js",
-    "needs": "^3.0.0"
+    "needs": "^3.0.3"
   },
   "bugs": {
     "url": "https://github.com/iStuffs/62.5percent/issues"
